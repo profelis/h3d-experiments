@@ -127,7 +127,7 @@ class H3DMain extends Sprite
 		
 		var n = 100;
 		var prim = new h3d.prim.Sphere(n, n << 1);
-		prim.addTCoords();
+		prim.addUVs();
 		prim.addNormals();
 		
 		/*

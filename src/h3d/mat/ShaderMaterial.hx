@@ -15,7 +15,7 @@ class ShaderMaterial<T:hxsl.Shader> extends Material
 		super(s = shader);
 	}
 	
-	function setup(obj:Object, context:RenderContext) throw "not implemented"
+	function setup(obj:Object, context:RenderContext) throw "not implemented";
 	
 	override public function free() 
 	{

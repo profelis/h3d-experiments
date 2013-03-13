@@ -59,8 +59,8 @@ class OutlineMaterial extends ShaderMaterial<OutlineShader>
 		
 		s.mpos = obj.absPos;
 		s.mproj = c.camera.m;
-		var cpos = c.camera.pos.copy();
-		var m = obj.absPos.copy();
+		var cpos = c.camera.pos.clone();
+		var m = obj.absPos.clone();
 		m.invert();
 		cpos.project(m);
 		s.camPos = cpos;
